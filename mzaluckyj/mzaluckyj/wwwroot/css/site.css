@@ -1,18 +1,88 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    font-size: 18px;
+    background-color: #1D3251;
 }
 
-body {
-  margin-bottom: 60px;
+@media (min-width: 992px) {
+    main {
+        padding: 0px 200px 0px 200px;
+    }
+    #introduction {padding:100px 0px 120px 0px;}
+    #projects {padding: 100px 0px 120px 0px;}
+    #contact {padding: 200px 0px 20px 00px;}
+}
+
+
+* {
+
+
+    font-family: Corbel, Rockwell;
+}
+
+
+#contact {
+    color: #CDEDDA;
+}
+
+#introduction {
+
+   
+}
+
+#hello {
+    color: #CDEDDA;
+ 
+}
+
+#aboutme {
+    text-align: center;
+
+}
+
+#bstyle {
+    background-color: #1D3251;
+    color: #CDEDDA;
+    font-size: 32px;
+
+}
+
+#drop {
+    color: white;
+    background-color: #1D3251;
+    font: 18px;
+}
+
+#sidebar {
+
+}
+
+
+
+main {
+
+    background-color: #1D3251;
+    color: white;
+}
+
+#mainh1 {
+    color: lightgray;
+
+}
+
+#so {
+    color: #CDEDDA;
+    font-size: 26px;
+}
+
+#so2 {
+    color: #CDEDDA;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #CDEDDA;
+    height: 45px;
 }
